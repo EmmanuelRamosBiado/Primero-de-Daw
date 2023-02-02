@@ -1,0 +1,24 @@
+public class Kumite {
+	public static boolean block(int[] attackers, int[] defenders) {
+		
+		boolean sobreviven;
+
+		int atacantes[];
+
+		int defensores[];
+
+		if (attackers.length > defenders.length) {
+			sobreviven = false;
+		} else if (attackers.length < defenders.length) {
+			sobreviven = true;
+		} else if (attackers.length == defenders.length) {
+			
+			
+			
+			sobreviven = true;
+		}
+		
+		return sobreviven;
+
+	}
+}

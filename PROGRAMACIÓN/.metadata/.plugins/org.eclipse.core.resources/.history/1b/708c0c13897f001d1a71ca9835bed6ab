@@ -1,0 +1,9 @@
+public class Kumite{
+  public static boolean block(int[] attackers, int[] defenders){
+	  
+	  int atacantes = new int[1];
+	  
+	  int defensores = new int[2];
+    return true;
+    }
+  }

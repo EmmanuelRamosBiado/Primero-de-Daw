@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ordenarPorNombre&apos; to &apos;OrdenarPorNombre&apos;&#x0D;&#x0A;- Original project: &apos;Hospital&apos;&#x0D;&#x0A;- Original element: &apos;ordenarPorNombre&apos;&#x0D;&#x0A;- Renamed element: &apos;OrdenarPorNombre&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ordenarPorNombre&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ordenarPorNombre.java[ordenarPorNombre" matchStrategy="1" name="OrdenarPorNombre" qualified="false" references="true" similarDeclarations="false" stamp="1647517912130" textual="false" version="1.0"/>
+</session>

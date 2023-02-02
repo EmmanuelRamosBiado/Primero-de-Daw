@@ -1,0 +1,32 @@
+public class Kumite {
+	public static boolean block(int[] attackers, int[] defenders) {
+
+		boolean sobreviven = false;
+
+		int sobrevivientesStacantes = 0;
+
+		int sobrevivientesDefensores = 0;
+
+		if (attackers.length > defenders.length) {
+			sobreviven = false;
+		} else if (attackers.length < defenders.length) {
+			sobreviven = true;
+		} else if (attackers.length == defenders.length) {
+
+			for (int i = 0; i < defenders.length; i++) {
+				if (attackers[i] > defenders[i]) {
+					defenders[i] = 0;
+				} else if (attackers[i] < defenders[i]) {
+					attackers[i] = 0;
+				} else if (attackers[i] == defenders[i]) {
+					attackers[i] = 0;
+					defenders[i] = 0;
+				}
+			}
+
+		}
+
+		return sobreviven;
+
+	}
+}

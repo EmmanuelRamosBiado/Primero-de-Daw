@@ -1,0 +1,12 @@
+public class TheCullingOfStratholme  {
+    public static String purify(String s) {
+        
+    	String noInfectados = "";
+    	
+    
+    	for
+    	
+    	
+    	return noInfectados;
+    }
+}
