@@ -1,0 +1,23 @@
+lista {
+    display: table;
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+producto {
+    display: table-row;
+}
+
+nombre, marca {
+    display: table-cell;
+    border-bottom: 1px dotted black;
+    padding: 20px;
+}
+
+nombre {
+    font-weight: bold;
+}
+
+marca {
+    color: green;
+}

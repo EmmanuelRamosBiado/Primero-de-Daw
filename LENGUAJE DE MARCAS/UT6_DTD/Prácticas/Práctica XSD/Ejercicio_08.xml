@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accomodations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Ejercicio_08.xsd" >
+    <rental type="house">
+        <title>Bergfrieden</title>
+        <description>Lovely and peacefully located between the forests and elms.</description>
+        <sleeps>4</sleeps>
+        <lodging currency="EUR">750</lodging>
+        <deposit currency="EUR">100</deposit>
+        <facility>barbeque</facility>
+        <facility>laundry</facility>
+    </rental>
+    <rental type="apartment">
+        <title>Apartment Daniela</title>
+        <description>Self-contained holiday apartment in Mayrhofen. Stunning location, all year round skiing, summer walking, activity holidays. </description>
+        <sleeps>6</sleeps>
+        <facility>barbecue</facility>
+        <facility>boot dryers</facility>
+        <facility>cot</facility>
+        <facility>garden</facility>
+        <facility usage="charged">laundry</facility>
+        <lodging currency="EUR">800</lodging>
+        <deposit currency="EUR">120</deposit>
+    </rental>
+    <accomodation type="guesthouse">
+        <title>Gastehaus Innerwiesn</title>
+        <description>A holiday in the Apart Garni Innerwiesn or a farm holiday in the Landhaus Schösser-Brandler!</description>
+        <room>
+            <title>Standard room</title>
+            <sleeps>3</sleeps>
+            <sleeps guest="child">1</sleeps>
+            <lodging currency="EUR">300</lodging>
+            <deposit currency="EUR">10</deposit>
+        </room>
+        <room>
+            <title>Superior room</title>
+            <sleeps>2</sleeps>
+            <sleeps guest="child">1</sleeps>
+            <lodging currency="EUR">350</lodging>
+            <deposit currency="EUR">10</deposit>
+        </room>
+    </accomodation>
+</accomodations>  

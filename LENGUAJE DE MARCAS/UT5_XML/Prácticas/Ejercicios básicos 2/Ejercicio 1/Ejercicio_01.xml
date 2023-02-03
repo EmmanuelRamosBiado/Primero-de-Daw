@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Estilo_01.css"?>
+<lista>
+    <producto>
+        <nombre seccion="Deportes">Bicicleta</nombre>
+        <marca>BH</marca>
+    </producto>
+
+    <producto>
+        <nombre seccion="Menaje">Cafetera</nombre>
+        <marca>Magefesa</marca>
+    </producto>
+
+    <producto>
+        <nombre seccion="Alimentación">Café</nombre>
+        <marca>Marcilla</marca>
+    </producto>
+
+    <producto>
+        <nombre seccion="Alimentación">Aceitunas</nombre>
+    </producto>
+</lista>

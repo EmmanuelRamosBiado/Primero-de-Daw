@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NominadasGoya>
+    <pelicula>
+        <titulo>Adú</titulo>
+        <director nacimiento="12/08/1970">Salvador Calvo</director>
+        <nominaciones total="13" />
+    </pelicula>
+    <pelicula>
+        <titulo>Ane</titulo>
+        <director nacimiento="12/04/1987">David Pérez Sañudo</director>
+        <nominaciones total="5" />
+    </pelicula>
+    <pelicula>
+        <titulo>La boda de Rosa</titulo>
+        <director nacimiento="12/06/1967">Iciar Bollain</director>
+        <nominaciones total="8" />
+    </pelicula>
+</NominadasGoya>

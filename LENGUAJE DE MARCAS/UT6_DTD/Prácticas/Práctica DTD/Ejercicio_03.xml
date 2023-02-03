@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paises SYSTEM "Ejercicio_03.dtd">
+<paises>
+    <pais id="p1">
+        <nombre>España</nombre>
+        <habitantes>46423034</habitantes>
+        <extension unidad="km2">504645</extension>
+        <gobierno tipo="monarquia" fecha="1978" />
+        <idiomas>
+            <idioma nombre="castellano" />
+            <idioma nombre="catalan" />
+            <idioma nombre="euskera" />
+            <idioma nombre="gallego" />
+        </idiomas>
+    </pais>
+    <pais id="p2">
+        <nombre>Irán</nombre>
+        <habitantes>79853900</habitantes>
+        <extension unidad="km2">1648195</extension>
+        <gobierno tipo="republica_islamica" fecha="1979" />
+        <idiomas>
+            <idioma nombre="persa" />
+        </idiomas>
+    </pais>
+    <pais id="p3">
+        <nombre>Alemania</nombre>
+        <habitantes>81292400</habitantes>
+        <extension unidad="km2">357168</extension>
+        <gobierno tipo="republica_federal" fecha="1990" />
+        <idiomas>
+            <idioma nombre="aleman" />
+        </idiomas>
+    </pais>
+    <pais id="p4">
+        <nombre>Estados Unidos de América</nombre>
+        <habitantes>316017000</habitantes>
+        <extension unidad="km2">9371174</extension>
+        <gobierno tipo="republica_federal" />
+        <idiomas>
+            <idioma nombre="ingles" />
+        </idiomas>
+    </pais>
+</paises>

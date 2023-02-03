@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleado nacimiento="1999-10-20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="Ejercicio_01.xsd">
+    <nombre>Rufino</nombre>
+    <apellidos>Langostino</apellidos>
+    <puesto sueldo="2500">gerente</puesto>
+</empleado>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="matches">
+        <xs:annotation>
+            <xs:documentation>This element describes tennis matches</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="match" minOccurs="3" maxOccurs="5">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="referee" type="nameType" />
+                            <xs:element name="player" type="nameType" minOccurs="2" maxOccurs="2" />
+                        </xs:sequence>
+                        <xs:attribute name="date" type="xs:date" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="nameType">
+        <xs:annotation>
+            <xs:documentation>Defines the complex type name. This type is very simple and contains only an attribute.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="name" use="required" />
+        <!-- This is a global type -->
+    </xs:complexType>
+</xs:schema> 

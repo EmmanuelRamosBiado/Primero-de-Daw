@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<birthdays xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio_06.xsd">
+    <family>
+        <mother name="María">
+            <date>1960-12-30</date>
+            <phone network="MEO" number="123456789" />
+        </mother>
+        <father name="Carlton">
+            <date>1959-03-08</date>
+            <phone network="ZON" number="121234345" />
+        </father>
+        <husband name="Edwin">
+            <date>1980-11-22</date>
+            <phone network="MEO" number="987654321" />
+        </husband>
+        <brother name="Yair">
+            <date>1984-05-16</date>
+            <phone network="Vodafone" number="090263345" />
+        </brother>
+    </family>
+    <friends>
+        <friend name="Karla">
+            <date>1980-04-07</date>
+            <phone network="Vodafone" number="086421357" />
+        </friend>
+    </friends>
+    <colleagues>
+        <colleague name="Denji">
+            <date>1975-01-01</date>
+            <phone network="ZON" number="019283746" />
+        </colleague>
+    </colleagues>
+</birthdays>

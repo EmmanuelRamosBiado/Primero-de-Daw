@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="stations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="station" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="locationX" type="xs:decimal" use="required" />
+                <xs:attribute name="locationY" type="xs:decimal" use="required" />
+                <xs:attribute name="id" type="xs:ID" use="required" />
+                <xs:attribute name="URI" use="required" />
+                <xs:attribute name="standardname" use="required" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:decimal" use="required" />
+      <xs:attribute name="timestamp" type="xs:integer" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

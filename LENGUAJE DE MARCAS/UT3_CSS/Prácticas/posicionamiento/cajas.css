@@ -1,0 +1,21 @@
+.caja{
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	border: solid black 1px;
+	margin: 0px;
+	width: 48px;
+	height: 48px;
+}
+
+#caja1{
+	background-color: red;
+}
+
+#caja2{
+	background-color: green;
+}
+
+#caja3{
+	background-color: blue;
+}

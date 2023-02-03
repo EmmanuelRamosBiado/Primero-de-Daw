@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE institutos [
+    <!ELEMENT institutos (lista_profesores, lista_asignaturas, lista_cursos)>
+    <!ELEMENT lista_profesores (profesor)>
+    <!ELEMENT profesor (nombre, apellido1, apellido2?)>
+
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido1 (#PCDATA)>
+    <!ELEMENT apellido2 (#PCDATA)>
+
+
+    <!ELEMENT lista_asignaturas (asignatura+)>
+    <!ELEMENT asignatura (a_nombre)>
+
+
+    <!ELEMENT a_nombre (#PCDATA)>
+
+
+    <!ELEMENT lista_cursos (curso+)>
+    <!ELEMENT curso (lista_alumno)>
+    <!ELEMENT lista_alumno (alumno)>
+    <!ELEMENT alumno (nombre, apellido1, apellido2?, asignaturas)>
+]> -->
+
+
+<!DOCTYPE instituto SYSTEM "Ejercicio_01.dtd">
+<instituto>
+    <!-- profesores-->
+    <lista_profesores>
+        <!-- NRP va a ser un ID-->
+        <profesor NRP="nrp-1">
+            <nombre>Juan</nombre>
+            <apellido1>Sánchez</apellido1>
+            <!-- apellido2 es opcional-->
+            <apellido2>Buesing</apellido2>
+        </profesor>
+        <profesor NRP="nrp-2">
+            <nombre>Anna</nombre>
+            <apellido1>Gómez</apellido1>
+        </profesor>
+    </lista_profesores>
+
+    <!-- asignaturas-->
+    <lista_asignaturas>
+        <!-- el atributo profesor es un IDREF a NRP de profesor-->
+        <asignatura codigo="c1" profesor="nrp-1">
+            <a_nombre>Biología</a_nombre>
+        </asignatura>
+        <asignatura codigo="c2" profesor="nrp-2">
+            <a_nombre>Lengua</a_nombre>
+        </asignatura>
+    </lista_asignaturas>
+
+    <!-- cursos-->
+    <lista_cursos>
+        <curso>
+            <lista_alumno>
+                <!-- el dni sera el id del alumno-->
+                <alumno dni="DNI-123456789Z">
+                    <nombre>Lucas</nombre>
+                    <apellido1>Nakashima</apellido1>
+                    <!-- apellido2 es opcional-->
+                    <apellido2>Omouveka</apellido2>
+                    <asignaturas en_curso="c1 c2" />
+                </alumno>
+                <alumno dni="DNI-87654321Z">
+                    <nombre>Molly</nombre>
+                    <apellido1>Night</apellido1>
+                    <asignaturas en_curso="c2" />
+                </alumno>
+            </lista_alumno>
+        </curso>
+    </lista_cursos>
+</instituto>

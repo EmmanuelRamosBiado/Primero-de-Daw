@@ -1,0 +1,131 @@
+@font-face {
+    font-family: monoton;
+    src: url(/fonts/monoton.woff2);
+}
+
+body {
+    background-color: black;
+}
+
+:not(h1) {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#img-izq, #img-der {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+}
+
+#img-izq {
+    left: 0;
+    background: url(/img/matrix.png);
+    background-size: contain;
+    z-index: -1;
+}
+
+#img-der {
+    right: 0;
+    background: url(/img/matrix2.png);
+    background-size: contain;
+    z-index: -1;
+}
+
+h1 {
+    font-family: monoton;
+    color: rgb(16, 219, 16);
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-align: center;
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    line-height: 0px;
+}
+
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+th {
+    background-color: rgb(16, 219, 16);
+    border: 1px solid white;
+    color: white;
+    text-align: left;
+}
+
+td {
+    background-color: black
+}
+
+p {
+    color: white;
+}
+
+#img-pong {
+  
+    float: right;
+    border: 5px solid rgb(16, 219, 16);
+    background-color: white;
+    padding: 5px;
+    margin: 15px;
+}
+
+#img-space {
+  
+    float: left;
+    border: 5px solid rgb(16, 219, 16);
+    background-color: white;
+    padding: 5px;
+    margin: 15px;
+}
+
+#img-pac {
+    float: right;
+    border: 5px solid rgb(16, 219, 16);
+    background-color: white;
+    padding: 5px;
+    margin: 15px;
+}
+
+footer {
+    color: white;
+    border-top: 1px rgb(16, 219, 16) solid;
+    border-bottom: 1px rgb(16, 219, 16) solid;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#emoji {
+    font-size: 60px;
+    text-align: center;
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nombre {
+    color: yellow;
+}
+
+.autor {
+    color: red;
+}
+
+.fecha {
+    color: green;
+}

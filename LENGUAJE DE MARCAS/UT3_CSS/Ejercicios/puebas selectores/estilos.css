@@ -1,0 +1,12 @@
+#arriba {
+    background-color: #ccc;
+    padding: 20px;
+}
+.intro{
+    color: red;
+    font-weight: bold;
+}
+
+div p {
+    font-style: italic;
+}

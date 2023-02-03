@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejemplo.xsl"?>
+<cine>
+    <pelicula categoria="accion">
+        <titulo idioma="ingles">Matrix</titulo>
+        <director>Hermanos Wachowski</director>
+        <reparto>Keanu Reeves</reparto>
+        <reparto>Carrie-Anne Moss</reparto>
+        <reparto>Laurence Fishburne</reparto>
+        <estreno año= "1999" />
+    </pelicula>
+    <pelicula categoria="animacion">
+        <titulo idioma="ingles">Coco</titulo>
+        <director>Lee Unkrich</director>
+        <reparto>Anthony Gonzalez</reparto>
+        <reparto>Gael García Bernal</reparto>
+        <reparto>Benjamin Bratt</reparto>
+        <estreno año= "2017" />
+    </pelicula>
+</cine>

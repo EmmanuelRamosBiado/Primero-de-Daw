@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Transforma tu realidad</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Emmanuel">
+    </head>
+
+    <body>
+        <h1>Inscripción</h1>
+
+        <form action="">
+            <label for="nombre">
+                <p>Nombre:* <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" size="50"></p>
+            </label>
+
+            <label for="apellidos">
+                <p>Apellidos:* <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos" size="50"></p>
+            </label>
+
+            <label for="fechadenacimiento">
+                <p>Fecha de nacimiento: <input type="date" name="fechadenacimiento" id="fechadenacimiento"></p>
+            </label>
+
+            <label for="correo">
+                <p>Correo electrónico: <input type="email" name="correo" id="correo" placeholder="correo@dominio" maxlength="100"></p>
+            </label>
+
+            <label for="telefono">
+                <p>Teléfono:* <input type="tel" name="telefono" id="telefono" placeholder="+34 600 000 000" size="15"></p>
+            </label>
+
+            <p>¿Qué charlas te interesan?
+                <select name="menú[]" id="menu" size="4" multiple>
+                    <option value="motivacionales">Motivacionales</option>
+                    <option value="autoayuda">Autoayuda</option>
+                    <option value="cientificas">Científicas</option>
+                    <option value="didactica">Didáctica</option>
+                    <option value="ocio">Ocio</option>
+                    <option value="empresariales">Empresariales</option>
+                </select>
+            </p>
+
+            <label for="terminos">
+                <p><input type="checkbox" name="terminos" id="terminos" checked>Acepto los términos y condiciones.</p>
+            </label>
+
+            <p>
+                <input type="submit" value="Enviar formulario">
+                <input type="reset" value="Limpiar todo">
+            </p>
+
+        </form>
+
+        <a href="index.html">Volver al inicio</a>
+        &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; &NonBreakingSpace; 
+        <a href="ubicacion.html">Conocer la ubicación del evento</a>
+    </body>
+
+</html>

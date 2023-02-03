@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE afiliados SYSTEM "Ejercicio_02.dtd">
+<afiliados>
+    <afiliado>
+        <dni_nie>12345678Z</dni_nie>
+        <nombre>Alex</nombre>
+        <apellidos>García López</apellidos>
+        <situacion situacion="en_paro"></situacion>
+        <nacimiento>
+            <dia>2</dia>
+            <mes>3</mes>
+            <anio>1990</anio>
+        </nacimiento>
+        <bajas>
+            <baja>
+                <causa>Accidente</causa>
+                <b_inicio>2010-2-4</b_inicio>
+                <b_final>2010-3-1</b_final>
+            </baja>
+        </bajas>
+        <prestaciones>
+            <prestacion>
+                <cantidad>1000</cantidad>
+                <p_inicio>2010-2-4</p_inicio>
+                <p_final>2010-3-1</p_final>
+            </prestacion>
+        </prestaciones>
+    </afiliado>
+</afiliados>

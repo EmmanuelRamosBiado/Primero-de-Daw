@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio_04.xsd" name="Campeones" description="Un grupo muy gracioso">
+    <person>Juan Alberto</person>
+    <person>Andrés</person>
+    <person>Marcos</person>
+    <person>Darío</person>
+    <person>Guille</person>
+</group>

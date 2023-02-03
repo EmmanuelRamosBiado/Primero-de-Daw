@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="informa_seguridad">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="terrorista" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="nombre" minOccurs="1" type="xs:string" />
+                            <xs:element name="tipo" minOccurs="0" type="xs:string" />
+                            <xs:element name="estado" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:attribute name="estado" use="optional">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="vivo" />
+                                                <xs:enumeration value="muerto" />
+                                                <xs:enumeration value="capturado" />
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                        <xs:attributeGroup ref="atributoTerrorista" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="organizacion" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="anyo" type="xs:string" />
+                            <xs:element name="region" minOccurs="1" type="xs:string" />
+                        </xs:all>
+                        <xs:attribute name="miembros" type="xs:IDREFS" use="optional" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:attributeGroup name="atributoTerrorista">
+        <xs:attribute name="id" use="required" type="xs:ID"></xs:attribute>
+        <xs:attribute name="pais" use="optional" type="xs:NMTOKEN"></xs:attribute>
+        <xs:attribute name="edad" use="optional" type="xs:NMTOKEN"></xs:attribute>
+    </xs:attributeGroup>
+</xs:schema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ies>
+    <nombre>IES Tetuán de las Victorias</nombre>
+    <web>https://www.iestetuan.es/</web>
+    <ciclos>
+        <ciclo id="ASIR">
+            <nombre>Administración de Sistemas Informáticos en Red</nombre>
+            <grado>Superior</grado>
+            <primerCurso año="2011" />
+        </ciclo>
+        <ciclo id="DAM">
+            <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+            <grado>Superior</grado>
+            <primerCurso año="2020" />
+        </ciclo>
+        <ciclo id="SMR">
+            <nombre>Sistemas Microinformáticos y Redes</nombre>
+            <grado>Medio</grado>
+            <primerCurso año="2010" />
+        </ciclo>
+    </ciclos>
+</ies>

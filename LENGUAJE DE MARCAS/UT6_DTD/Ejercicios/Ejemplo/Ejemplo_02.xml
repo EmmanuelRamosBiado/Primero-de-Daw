@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pelicula SYSTEM "pelicula.dtd">
+
+<pelicula>
+    <titulo></titulo>
+    <estreno></estreno>
+    <director></director>
+    <reparto></reparto>
+</pelicula>

@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: "orbitron";
+    src: url("/fonts/orbitron.woff");
+}
+
+body { 
+    width: 80%;
+    min-width: 560px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: "orbitron";
+    font-size: 1.15em;
+    margin-top: 20px;
+    clear: left;
+}
+
+div.img {
+    background-image: url("/img/banner.png");
+    height: 80px;
+    box-shadow: 1px 1px 20px black;
+}
+
+.menu {
+    margin-top: 20px; 
+    margin-bottom: 70px;
+}
+
+.menu div {
+    float: left;
+    background-color: black;
+    padding: 4px;
+    text-transform: capitalize;
+    margin-right: 2px;
+}
+
+.menu div:hover {
+    background-color: grey;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+fieldset {
+    border: 2px solid lightblue;
+}
+
+table {
+    width: 100%;
+}
+
+table, td {
+    border: 3px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    padding: 4px;
+    margin-top: 15px;
+    text-align: center;
+}

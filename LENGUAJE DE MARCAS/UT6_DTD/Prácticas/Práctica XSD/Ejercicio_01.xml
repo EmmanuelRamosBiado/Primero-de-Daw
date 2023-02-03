@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF‐8"?>
+<estudiante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio_01.xsd">
+    <nombre>Luca</nombre>
+    <apellidos>Rossi</apellidos>
+    <id>281283</id>
+    <plan>
+        <cursos anyo="3">
+            <curso>
+                <nombre>Programacion Orientada a Objetos</nombre>
+                <nombre_corto>POO</nombre_corto>
+                <registro>
+                    <grado>30</grado>
+                    <fecha>13/06/11</fecha>
+                </registro>
+            </curso>
+            <curso>
+                <nombre>Analisis del software</nombre>
+                <nombre_corto>AS</nombre_corto>
+            </curso>
+        </cursos>
+    </plan>
+</estudiante>  

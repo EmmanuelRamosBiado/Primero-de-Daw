@@ -1,0 +1,5 @@
+<!ELEMENT pelicula (titulo,estreno,director,reparto)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT estreno (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT reparto (#PCDATA)>

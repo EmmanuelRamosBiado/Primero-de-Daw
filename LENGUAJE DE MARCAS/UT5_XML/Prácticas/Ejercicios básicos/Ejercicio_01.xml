@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido>
+    <destinatario>Jon Snow</destinatario>
+    <articulo>espada de acero valyrio</articulo>
+    <direccion>Castillo Negro</direccion>
+    <fecha>08-01-2021</fecha>
+</pedido>

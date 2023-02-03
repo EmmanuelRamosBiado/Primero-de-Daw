@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="group">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="person" minOccurs="5" maxOccurs="20" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="name" use="required" type="xs:string" />
+            <xs:attribute name="description" use="required" type="xs:string">
+                <xs:annotation>
+                    <xs:documentation>El elemento xs:annotation se puede utilizar para explicar el comportamiento del elemento o atributo que se define</xs:documentation>
+                    <xs:documentation>The attribute description describes the group.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema> 

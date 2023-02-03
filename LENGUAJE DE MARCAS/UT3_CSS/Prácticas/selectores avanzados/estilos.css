@@ -1,0 +1,52 @@
+h1 {
+    color: teal;
+}
+h2 {
+    color: blue;
+}
+p strong {
+    color: red;
+}
+.destacado {
+    color: orange;
+}
+a {
+    color: red;
+}
+a em {
+    color:blue
+}
+span.especial {
+    color: purple;
+}
+/*Título de la tabla*/
+caption {
+    color: blue;
+}
+/*Tabla*/
+table, td, th {
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+td {
+    color: green;
+}
+td strong {
+    color: orange;
+}
+th.especial{
+    color: orange;
+}
+th {
+    color: red;
+}
+/*Párrafo de abajo*/
+#adicional {
+    color: olive;
+}
+#especial {
+    color: fuchsia;
+}
+div a {
+    color: green;
+}

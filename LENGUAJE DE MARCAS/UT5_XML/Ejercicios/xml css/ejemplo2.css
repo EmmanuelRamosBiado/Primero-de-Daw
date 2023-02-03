@@ -1,0 +1,23 @@
+autor
+{
+color:green;
+font-weight: bold;
+}
+
+titulo {
+    color: blue;
+}
+
+biblioteca {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+   }
+   libro {
+    display: table-row;
+   }
+   titulo, autor, editorial {
+    border: black 1px solid;
+    display: table-cell;
+   }
+   

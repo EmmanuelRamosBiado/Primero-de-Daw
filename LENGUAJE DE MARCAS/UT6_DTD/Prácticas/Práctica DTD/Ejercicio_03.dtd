@@ -1,0 +1,14 @@
+<!ELEMENT paises (pais+)>
+<!ELEMENT pais (nombre, ((habitantes?, extension?) | (extension?, habitantes?)), gobierno, idiomas?)>
+<!ATTLIST pais id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT habitantes (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ATTLIST extension unidad CDATA #REQUIRED>
+<!ATTLIST extension unidad CDATA #FIXED 'km2'>
+<!ELEMENT gobierno (#PCDATA)>
+<!ATTLIST gobierno tipo (republica_federal|republica_islamica|monarquia|dictadura) #REQUIRED>
+<!ATTLIST gobierno fecha CDATA #IMPLIED>
+<!ELEMENT idiomas (idioma+)>
+<!ELEMENT idioma (#PCDATA)>
+<!ATTLIST idioma nombre CDATA #REQUIRED>

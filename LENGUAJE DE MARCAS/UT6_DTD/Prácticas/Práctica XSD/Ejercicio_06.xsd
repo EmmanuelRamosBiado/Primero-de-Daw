@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="birthdays">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="family" type="family" />
+                <xs:element name="friends" type="friends" />
+                <xs:element name="colleagues" type="colleagues" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="friends">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="friend" type="birthday" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="colleagues">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="colleague" type="birthday" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="family">
+        <xs:sequence>
+            <xs:element name="mother" type="birthday" />
+            <xs:element name="father" type="birthday" />
+            <xs:choice>
+                <xs:element name="husband" type="birthday" />
+                <xs:element name="wife" type="birthday" />
+            </xs:choice>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="sister" type="birthday" />
+                <xs:element name="brother" type="birthday" />
+                <xs:element name="son" type="birthday" />
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="birthday">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="date" type="xs:date" />
+            <xs:element ref="phone" />
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required" />
+    </xs:complexType>
+    <xs:element name="phone">
+        <xs:complexType>
+            <xs:attribute name="number" type="xs:integer" />
+            <xs:attribute name="network" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="MEO" />
+                        <xs:enumeration value="ZON" />
+                        <xs:enumeration value="Vodafone" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema> 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hechos>
+    <hecho descripcion="IBM da a conocer el pc">
+        <fecha>
+            <dia>12</dia>
+            <mes>08</mes>
+            <agno>1981</agno>
+        </fecha>
+    </hecho>
+
+    <hecho descripcion="Deep Blue vence a Kasparov">
+        <fecha>
+            <dia>11</dia>
+            <mes>05</mes>
+            <agno>1997</agno>
+        </fecha>
+    </hecho>
+
+    <hecho descripcion="Mark Zuckerberg lanza Facebook">
+        <fecha>
+            <dia>04</dia>
+            <mes>02</mes>
+            <agno>2004</agno>
+        </fecha>
+    </hecho>
+</hechos>

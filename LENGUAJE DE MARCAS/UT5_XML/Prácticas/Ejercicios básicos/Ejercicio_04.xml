@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>
+    <ciudad>
+        <nombre>Berlín</nombre>
+        <pais continente="Europa">Alemania</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>Nueva York</nombre>
+        <pais continente="América">Estados Unidos</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>El Cairo</nombre>
+        <pais continente="África">Egipto</pais>
+    </ciudad>
+</ciudades>

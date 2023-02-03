@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejemplo1.css"?>
+<?xml-stylesheet href="ejemplo2.css"?>
+<biblioteca>
+    <libro idioma="inglés">
+        <titulo> A Game of Thrones </titulo>
+        <autor>George R.R. Martin</autor>
+        <editorial>Bantam Books</editorial>
+    </libro>
+    <libro idioma="castellano">
+        <titulo>El Quijote</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <editorial>Alfaguara</editorial>
+    </libro>
+</biblioteca>

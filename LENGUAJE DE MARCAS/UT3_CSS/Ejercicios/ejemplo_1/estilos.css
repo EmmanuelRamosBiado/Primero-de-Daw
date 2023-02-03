@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+}
+h1 {
+    background-color: green;
+}
+p {
+    font-size: 20px;
+    background-color: yellow;
+}
+div {
+    /* contenedor con estilos */
+    background-color: lightblue;
+    border: 5px dashed green;
+    width: 25%;
+    padding: 10px;
+    margin: 40px;
+}

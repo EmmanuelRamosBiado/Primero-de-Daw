@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Formulario de registro - Mi web</title>
+        <link rel="stylesheet" href="css/estilos.css"/>
+    </head>
+    <body>
+        <h1>Formulario de registro</h1>
+        <form action="" method="post">
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" name="nombre" type="text" maxlength="30"/>
+            </p>
+            <p>
+                <label for="apellidos">Apellidos:</label>
+                <input id="apellidos" name="apellidos" type="text" maxlength="30"/>
+            </p>
+            <p>Sexo:
+                <input id="m" type="radio" name="sexo"/>
+                <label for="m">Mujer</label>
+                <input id="h" type="radio" name="sexo"/>
+                <label for="h">Hombre</label>
+            </p>
+            <p>
+                <label for="correo">Correo:</label>
+                <input id="correo" name="correo" type="text"/>
+            </p>
+            <p>
+                <input checked="checked" id="informacion" name="informacion" type="checkbox"/>
+                <label for="informacion">Deseo recibir información sobre novedades y ofertas</label>
+            </p>
+            <p>
+                <input id="acpetacion" name="acpetacion" type="checkbox"/>
+                <label for="acpetacion">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+            </p>
+            <p>
+                <input type="submit"/>
+            </p>
+            
+        </form>
+    </body>
+</html>
+
+

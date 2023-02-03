@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cesta>
+  <producto idProducto="021">
+    <nombre>Naranja</nombre>
+    <origen>Valencia</origen>
+    <cantidad>10</cantidad>
+    <precio>2.5</precio>
+  </producto>
+  <producto idProducto="531">
+    <nombre>Plátano</nombre>
+    <origen>Canarias</origen>
+    <cantidad>5</cantidad>
+    <precio>2</precio>
+  </producto>
+  <producto idProducto="124">
+    <nombre>Fresa</nombre>
+    <origen>Lepe</origen>
+    <cantidad>25</cantidad>
+    <precio>3</precio>
+  </producto>
+</cesta>

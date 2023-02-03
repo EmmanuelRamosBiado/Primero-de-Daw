@@ -1,0 +1,33 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    }
+caption{
+    color:white;
+    background-color: #92D050;
+    height: 30px;
+    vertical-align: middle;
+    border:1px solid black ;
+    }
+th{
+    color:white;
+    background-color: #002060;
+    }
+table, td, th {
+    border:1px solid black;
+    }
+    
+table {
+    border-collapse:collapse;
+    width: 70%;
+    }
+td, th {
+    padding:5px;
+    }
+tbody {
+    color:black;
+    }
+tfoot {
+    color:black;
+   background:crimson;
+    }
+   

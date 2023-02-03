@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correo>
+    <remitente>
+        <nombre>Groucho Marx</nombre>
+        <Email>groucho@marx.com</Email>
+    </remitente>
+
+    <destinatario>
+        <nombre>T.S. Elliot</nombre>
+        <email>ts@elliot.com</email>
+    </destinatario>
+
+    <asunto>Hola T.S.</asunto>
+
+    <fecha>19-06-1961</fecha>
+
+    <mensaje>
+        <parrafo>
+            Tu foto me llegó en perfecto estado y espero que estas de agradecimiento te encuentren en la misma condición
+        </parrafo>
+        <parrafo>
+            No tenía la menor idea de que fueses tan atractivo.
+        </parrafo>
+        <parrafo>
+            El hecho de que no te hayan ofrecido el papel de protagonista en alguna película sexy sólo puedo atribuirlo a la estupidez de los directores de reparto.
+        </parrafo>
+        <parrafo>
+            Un saludo
+        </parrafo>
+    </mensaje>
+</correo>

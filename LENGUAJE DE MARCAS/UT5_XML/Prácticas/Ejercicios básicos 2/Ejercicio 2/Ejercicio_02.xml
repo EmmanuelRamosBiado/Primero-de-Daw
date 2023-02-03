@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Estilo_02.css"?>
+
+<equipos>
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador>Carlo Ancelotti</entrenador>
+        <jugadores>
+            <jugador posicion="Delantero">
+                <nombre>Vinícius</nombre>
+                <nacionalidad>Brasileño</nacionalidad>
+            </jugador>
+
+            <jugador posicion="Delantero">
+                <nombre>Benzemá</nombre>
+                <nacionalidad>Francés</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+
+    <equipo>
+        <nombre>FC Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador>Xavi Hernández</entrenador>
+        <jugadores>
+            <jugador posicion="Delantero">
+                <nombre>Ansu Fati</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+
+            <jugador posicion="Defensa">
+                <nombre>Piqué</nombre>
+                <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>

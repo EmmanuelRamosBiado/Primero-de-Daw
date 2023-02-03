@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aeropuerto nombre="Newark" ciudad="New York" info="https://www.nuevayork.net">
+    <vuelos>
+        <vuelo código="V2102" estado="R">
+            <origen>New York</origen>
+            <destino>Madrid</destino>
+            <hora-salida>9:30</hora-salida>
+            <hora-llegada>11:30</hora-llegada>
+            <duracion horas="7" />
+        </vuelo>
+        <vuelo código="V2315" estado="C">
+            <origen>New York</origen>
+            <destino>Miami</destino>
+            <hora-salida>10:15</hora-salida>
+            <hora-llegada>11:15</hora-llegada>
+            <duracion horas="5" />
+        </vuelo>
+    </vuelos>
+</aeropuerto>
